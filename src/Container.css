@@ -55,3 +55,28 @@ form>input{
     font-size: 14px;
     
   }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    form>input{
+      width: 150px;
+    }
+   body{
+    
+    background-size: cover;
+    background: url(https://images4.alphacoders.com/102/thumb-1920-102944.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+    .gif{
+      width: 20vw;
+      height: 40vh;
+    }
+    form>input:hover{
+      font-weight: bold;
+      font-size: 7px;
+    }
+
+
+    }
+  

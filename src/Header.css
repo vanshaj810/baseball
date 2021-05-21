@@ -89,5 +89,147 @@ button{
         background-color: rgb(237, 241, 236);
         color: grey;
         font-weight: bold;
+        font-size: 16px;
+        
     }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+    .container{
+        width: 100vw;
+       height:10vh;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: relative;
+        overflow: hidden;
+    }
+    header{
+        width: 100vw;
+        position: relative;
+        overflow: hidden;
+    }
+    #title{
+        font-size: 13px;
+    }
+    .left{
+        width: 25px;
+        
+
+    }
+    .mid{
+        display: flex;
+        width:70px;
+        margin-left: 0px;
+        float: none;
+        padding: 0px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    .right{
+        margin-left: 426px;
+    padding: 5px;
+    }
+    button{
+        font-size: 13px;
+    }
+    
+    
+
+
+
+    }
+    @media only screen and (max-width: 652px) {
+        /* For mobile phones: */
+    .container{
+        width: 100vw;
+       height:10vh;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: relative;
+        overflow: hidden;
+    }
+    header{
+        width: 100vw;
+        position: relative;
+        overflow: hidden;
+    }
+    #title{
+        font-size: 13px;
+    }
+    .left{
+        width: 25px;
+        
+
+    }
+    .mid{
+        display: flex;
+        width:70px;
+        margin-left: 0px;
+        float: none;
+        padding: 0px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    .right{
+        margin-left: 426px;
+    padding: 5px;
+    }
+    button{
+        font-size: 13px;
+    }
+    
+    
+
+
+
+    }
+    @media only screen and (max-width: 711px) {
+        /* For mobile phones: */
+    .container{
+        width: 100vw;
+       height:10vh;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: relative;
+        overflow: hidden;
+    }
+    header{
+        width: 100vw;
+        position: relative;
+        overflow: hidden;
+    }
+    #title{
+        font-size: 13px;
+    }
+    .left{
+        width: 25px;
+        
+
+    }
+    .mid{
+        display: flex;
+        width:70px;
+        margin-left: 0px;
+        float: none;
+        padding: 0px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    .right{
+        margin-left: 426px;
+    padding: 5px;
+    }
+    button{
+        font-size: 13px;
+    }
+    
+    
+
+
+
+    }
+
+
     
