@@ -79,4 +79,38 @@ form>input{
 
 
     }
-  
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+    body{
+      background-size: cover;
+      background: url(https://images4.alphacoders.com/102/thumb-1920-102944.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+    form>input{
+      width: 70px;
+      font-size: 7px;
+
+    }
+    .bottomPane{
+      margin-left: -50px;
+    }
+
+    form{
+     position: relative;
+     right: 65px;
+     bottom: 130px;
+      align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: 50px;
+    }
+      .gif{
+        width: 30vw;
+        height: 40vh;
+        position: relative;
+        bottom: 80px;
+        right: 30px;
+      }
+
+    }
